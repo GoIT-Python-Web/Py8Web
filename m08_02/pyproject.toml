@@ -1,14 +1,16 @@
 [tool.poetry]
-name = "m08-01"
+name = "m08-02"
 version = "0.1.0"
 description = ""
 authors = ["Yuriy Kuchma <krabatua@gmail.com>"]
 readme = "README.md"
-packages = [{include = "m08_01"}]
+packages = [{include = "m08_02"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+alembic = "^1.9.1"
 sqlalchemy = "^1.4.46"
+psycopg2 = "^2.9.5"
 faker = "^16.3.0"
 
 
