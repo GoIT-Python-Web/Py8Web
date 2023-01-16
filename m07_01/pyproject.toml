@@ -8,8 +8,8 @@ packages = [{include = "m08_01"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-pymongo = {extras = ["srv", "tls"], version = "^4.3.3"}
-mongoengine = "^0.25.0"
+sqlalchemy = "^1.4.46"
+faker = "^16.3.0"
 
 
 [build-system]

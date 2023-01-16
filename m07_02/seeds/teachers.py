@@ -17,7 +17,7 @@ def create_teachers():
             start_work=fake.date_between(start_date="-5y")
         )
         session.add(teacher)
-    session.commit()
+    # session.commit()
 
 
 if __name__ == '__main__':
