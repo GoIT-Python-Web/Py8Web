@@ -1,4 +1,11 @@
-from mongoengine import connect, Document, StringField, ReferenceField, ListField, CASCADE
+from mongoengine import (
+    connect,
+    Document,
+    StringField,
+    ReferenceField,
+    ListField,
+    CASCADE,
+)
 
 connect(host="mongodb://127.0.0.1:27017/my_db")
 
@@ -13,7 +20,7 @@ class Post(Document):
     title = StringField(required=True, max_length=250, min_length=5)
     author = ReferenceField(User, reverse_delete_rule=CASCADE)
     tags = ListField(StringField())
-    meta = {'allow_inheritance': True}
+    meta = {"allow_inheritance": True}
 
 
 class TextPost(Post):

@@ -5,46 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a843f2fd-fe9b-4615-8bc0-578e3249872e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../m07_02/run_seed.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongoengine_example/create.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongoengine_example/get.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongoengine_example/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongoengine_example/update.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pymongo_example/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pymongo_example/test_connection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/m08_01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/m08_01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example_core.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example_session.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongoengine_example/create.py" beforeDir="false" afterPath="$PROJECT_DIR$/mongoengine_example/create.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongoengine_example/get.py" beforeDir="false" afterPath="$PROJECT_DIR$/mongoengine_example/get.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongoengine_example/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mongoengine_example/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongoengine_example/remove.py" beforeDir="false" afterPath="$PROJECT_DIR$/mongoengine_example/remove.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongoengine_example/update.py" beforeDir="false" afterPath="$PROJECT_DIR$/mongoengine_example/update.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seeds.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m08_02/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m08_02/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m08_02/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m08_02/.idea/m08_02.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m08_02/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m08_02/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m08_02/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m08_02/alembic.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m08_02/alembic/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m08_02/alembic/env.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m08_02/alembic/script.py.mako" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m08_02/alembic/versions/568e9ad25eb8_add_contact_person_to_student.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m08_02/alembic/versions/a94eb8c6b0bd_init.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m08_02/config.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m08_02/database/db.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m08_02/database/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m08_02/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m08_02/poetry.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m08_02/pyproject.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m08_02/seeds/contacts.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m08_02/seeds/relationship.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m08_02/seeds/students.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m08_02/seeds/teachers.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,12 +37,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.get">
     <configuration name="create" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="m08_01" />
