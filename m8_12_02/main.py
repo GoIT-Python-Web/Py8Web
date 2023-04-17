@@ -4,11 +4,20 @@ import uvicorn
 from fastapi import FastAPI, Depends, HTTPException, status, Request
 from sqlalchemy import text
 from sqlalchemy.orm import Session
+from starlette.middleware.cors import CORSMiddleware
 
 from src.database.connect import get_db
 from src.routes import owners, cats, auth
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 @app.middleware("http")

@@ -13,7 +13,7 @@ from src.services.auth import auth_service
 router = APIRouter(prefix='/cats', tags=['cats'])
 
 
-@router.get("/", response_model=List[ResponsePet], dependencies=[Depends(RateLimiter(times=2, seconds=5))])
+@router.get("/", response_model=List[ResponsePet], dependencies=[Depends(RateLimiter(times=2, seconds=5))])  # dependencies=[Depends(RateLimiter(times=2, seconds=5))]
 async def get_cats(limit: int = Query(10, le=1000), offset: int = 0, owner_id: int = None, is_vaccinated: bool = None,
                    db: Session = Depends(get_db), current_user: User = Depends(auth_service.get_current_user)):
     """

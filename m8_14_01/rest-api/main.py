@@ -37,6 +37,7 @@ async def add_process_time_header(request: Request, call_next):
 
 @app.on_event("startup")
 async def startup():
+    print('------------- STARTUP --------------')
     r = await redis.Redis(host='localhost', port=6379, db=0, encoding="utf-8", decode_responses=True)
     await FastAPILimiter.init(r)
 

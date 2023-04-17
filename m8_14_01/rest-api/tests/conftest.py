@@ -1,5 +1,6 @@
 
 import pytest
+from unittest.mock import MagicMock
 from fastapi.testclient import TestClient
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
@@ -7,7 +8,7 @@ from sqlalchemy.orm import sessionmaker
 from main import app
 from src.database.models import Base
 from src.database.connect import get_db
-
+from fastapi_limiter.depends import RateLimiter
 
 SQLALCHEMY_DATABASE_URL = "sqlite:///./test.db"
 
@@ -42,6 +43,7 @@ def client(session):
             session.close()
 
     app.dependency_overrides[get_db] = override_get_db
+    # app.dependency_overrides[RateLimiter()] = MagicMock()
 
     yield TestClient(app)
 

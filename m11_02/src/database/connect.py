@@ -1,7 +1,9 @@
 import configparser
 import pathlib
 
+from fastapi import HTTPException
 from sqlalchemy import create_engine
+from sqlalchemy.exc import SQLAlchemyError
 from sqlalchemy.orm import sessionmaker
 
 file_config = pathlib.Path(__file__).parent.joinpath('config.ini')
@@ -19,5 +21,8 @@ def get_db():
     db = SessionLocal()
     try:
         yield db
+    except SQLAlchemyError as e:
+        db.rollback()
+        raise HTTPException(status_code=400, detail=str(e))
     finally:
         db.close()
