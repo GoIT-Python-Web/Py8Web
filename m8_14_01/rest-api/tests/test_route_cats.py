@@ -1,7 +1,6 @@
 from unittest.mock import MagicMock, patch, AsyncMock
 
 import pytest
-from fastapi_limiter import FastAPILimiter
 
 from src.database.models import User
 from src.services.auth import auth_service
